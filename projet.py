@@ -3,6 +3,11 @@
 
 # # Projet
 
+# ## Arg lecture
+import sys
+
+[csv1, cvs2] = sys.argv[-2:]
+
 # ## Imports & lecture des fichiers
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import *
@@ -11,10 +16,10 @@ from pyspark.sql.types import *
 spark = SparkSession.builder.appName('abc').getOrCreate()
 
 df1 = spark.read.format("csv").option("header", "true").option(
-    "inferSchema", "true").load('ApplePrices.csv')
+    "inferSchema", "true").load(csv1)
 
 df2 = spark.read.format("csv").option("header", "true").option(
-    "inferSchema", "true").load('CurrencyConversion.csv')
+    "inferSchema", "true").load(cvs2)
 
 df1.show()
 
