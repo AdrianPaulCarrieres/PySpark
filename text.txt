@@ -1,0 +1,21 @@
++--------------------+-------+-------+--------+-------------+
+|          Model_name|  Price|Country|Currency|Dollar Prices|
++--------------------+-------+-------+--------+-------------+
+|        24-inch iMac|1455.71| France|     EUR|      1635.63|
+|         AirPods Max| 631.91| France|     EUR|       710.01|
+|         AirPods Pro| 280.29| France|     EUR|       314.93|
+|AirPods(2nd gener...| 149.69| France|     EUR|       168.19|
+|AirPods(3rd gener...| 199.92| France|     EUR|       224.63|
+|Apple Pencil (2nd...| 135.62| France|     EUR|       152.38|
+|         Apple TV 4K| 199.92| France|     EUR|       224.63|
+|      Apple Watch SE| 300.38| France|     EUR|       337.51|
+|Apple Watch Series 3| 220.01| France|     EUR|        247.2|
+|         MacBook Air|1134.23| France|     EUR|      1274.42|
+|         Magic Mouse|  85.39| France|     EUR|        95.94|
+|          Sport Band|  49.23| France|     EUR|        55.31|
+|                iPad|  390.8| France|     EUR|        439.1|
+|            iPad Pro| 903.16| France|     EUR|      1014.79|
+|           iPhone 12| 692.19| France|     EUR|       777.74|
+|           iPhone 13| 812.74| France|     EUR|       913.19|
+|           iPhone SE| 491.26| France|     EUR|       551.98|
++--------------------+-------+-------+--------+-------------+
